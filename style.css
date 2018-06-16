@@ -347,7 +347,7 @@ p {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  background-image: url('../img/image.jpg');
+  background-image: url('../img/image.webp');
   background-position: center;
   background-color: gainsboro;
   background-size: cover;
