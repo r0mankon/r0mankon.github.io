@@ -1,96 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="This is my personal website, Where I write little about me and My Projects.">
-  <meta name="keywords" content="rokon, portfolio, web designer, web developer, web application developer">
-  <meta name="author" content="fb.me/rokon015">
-  <title>Rokon - rokon015</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="keywords"
+    content="rokon, rokonxr, roknuzzaman, website, portfolio, full-stack web developer, web application developer, software engineer">
+  <meta name="author" content="fb.me/rokonxr">
+  <title>Roman Rokon - @rokonxr | FullStack Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="./img/me.jpg" type="image/x-icon">
 </head>
 
 <body>
-  <header class="navbar">
-    <div class="logo">
-      <span class="img-wrapper">
-        <img type="image/webp" src="img/logo.webp" alt="rokon">
-      </span>
-      <a href="#">Rokon Khan</a>
+  <main>
+    <div class="avatar-wrapper">
+      <img onmouseenter="this.src='./img/project.webp'" onmouseleave="this.src='./img/me.jpg'" id="avatar"
+        src="./img/me.jpg" alt="rokonxr">
     </div>
-    <nav class="nav">
-      <a id="btn-close">&times;</a>
-      <a class="active" href="#">Home</a>
-      <a href="pages/about.html">About</a>
-      <a href="pages/projects.html">Projects</a>
-      <a href="pages/contact.html">Contact</a>
-    </nav>
-    <span id="btn-open">&#9776;</span>
-  </header>
-
-  <div class="showcase-image"></div>
-
-  <section class="showcase">
-    <div class="tagline">
-      <h1>Hi,
-        <br> I am Rokon</h1>
+    <h2 class="name">
+      <abbr title="Roknuzzaman Rokon">Roman Rokon</abbr>
+    </h2>
+    <h3 class="title">Full-Stack Web Developer</h3>
+    <p class="status">Currently I'm Building My Portfolio</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/rokonxr">
+        <img class="icon" src="./img/icons/linkedin.svg" alt="twitter">
+      </a>
+      <a href="https://facebook.com/rokonxr">
+        <img class="icon" src="./img/icons/facebook.svg" alt="twitter">
+      </a>
+      <a href="https://twitter.com/rokonxr">
+        <img class="icon" src="./img/icons/twitter.svg" alt="twitter">
+      </a>
+      <a href="https://instagram.com/rokonxr">
+        <img class="icon" src="./img/icons/instagram.svg" alt="twitter">
+      </a>
     </div>
-  </section>
-
-  <section class="card-container">
-    <a class="card card-about" href="pages/about.html">
-      <div class="card-header">
-        <img src="img/about.webp" alt="about">
-      </div>
-      <div class="card-title">
-        About
-      </div>
-      <div class="card-text">
-        Little about me
-      </div>
-    </a>
-
-    <a class="card card-projects" href="pages/projects.html">
-      <div class="card-header">
-        <img src="img/project.webp" alt="portfolio">
-      </div>
-      <div class="card-title">
-        Projects
-      </div>
-      <div class="card-text">
-        Some of my projects
-      </div>
-    </a>
-
-    <a class="card card-contact" href="pages/contact.html">
-      <div class="card-header">
-        <img src="img/contact-1.webp" alt="contact">
-      </div>
-      <div class="card-title">
-        Contact
-      </div>
-      <div class="card-text">
-        Find the best way to contact me
-      </div>
-    </a>
-  </section>
-
-  <footer class="footer">
-    &COPY; 2018 rokon015
-  </footer>
-
-  <script src="script.js"></script>
-  <script>
-    !function () {
-      var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
-      analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on"]; analytics.factory = function (t) { return function () { var e = Array.prototype.slice.call(arguments); e.unshift(t); analytics.push(e); return analytics } }; for (var t = 0; t < analytics.methods.length; t++) { var e = analytics.methods[t]; analytics[e] = analytics.factory(e) } analytics.load = function (t, e) { var n = document.createElement("script"); n.type = "text/javascript"; n.async = !0; n.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js"; var o = document.getElementsByTagName("script")[0]; o.parentNode.insertBefore(n, o); analytics._loadOptions = e }; analytics.SNIPPET_VERSION = "4.1.0";
-        analytics.load("2lsLCW4BEiw7jB7DnMQRY6cIUc45IwjF");
-        analytics.page();
-      }
-    }();
-  </script>
+    <footer class="footer">
+      &COPY; 2018 - present @rokonxr
+    </footer>
+  </main>
 </body>
 
 </html>
